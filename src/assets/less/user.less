@@ -1,0 +1,72 @@
+.user{
+    background: #f5f5f5;
+}
+.bg-box{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/user-bg.jpg);
+    background-size: 100% auto;
+}
+// 内容部分样式开始
+.content{
+    // height: 300px;
+    background: rgba(255, 255, 255, .9);
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    top: -30px;
+    border: 1px solid red;
+    box-shadow:rgba(255, 255, 255, .9);
+    // background-image: url(../images/user-bg.jpg);
+    // filter:blur(.5px);
+    .user-mes{
+        height: 100px;
+        border-bottom: 1px solid #f5f5f5;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        // border: 1px solid red;
+        .icon{
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            background: #ccc;
+            overflow: hidden;
+        }
+        .user-name{
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+    .list{
+        width: 100%;
+        margin-top: 40px;
+        // border: 1px solid yellow;
+        .list-item{
+            font-size: 16px;
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid #f5f5f5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .icon{
+                width: 30px;
+                height: 30px;
+                background: #ccc;
+            }
+        }
+    }
+}
+// 内容样式结束
+
+.auto-img{
+    width: 100%;
+    display: block;
+}

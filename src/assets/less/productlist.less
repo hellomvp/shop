@@ -1,0 +1,49 @@
+.productlist{
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    .single-box{
+        display: flex;
+        align-items: center;
+        .count{
+            align-self: flex-end;
+        }
+    }
+    .checked-box{
+        padding-right: 10px;
+    }
+    .title-box{
+        flex: 1 1 auto;
+        text-align: left;
+        padding-left: 10px;
+        position: relative;
+        .zhname{
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .enname{
+            color: #666;
+            font-size: 14px;
+        }
+        .price{
+            color: #704d2d;
+            font-size: 18px;
+            margin-top: 16px;
+        }
+        .parameters{
+            white-space: nowrap;
+            position: absolute;
+            top: 0;
+            left: 100px;
+        }
+    }
+    .img{
+        width: 80px;
+        height: 80px;
+        img{
+            border-radius: 4px;
+        }
+    }
+}

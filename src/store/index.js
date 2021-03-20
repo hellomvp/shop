@@ -5,11 +5,9 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    // 商品id
+    pid:0,
+    // token
+    token:''
   },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
 })
